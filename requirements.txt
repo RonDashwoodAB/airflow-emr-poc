@@ -1,0 +1,2 @@
+# Deprecated -- replaced with mypy_boto3_builder
+boto3-type-annotations==0.3.1
