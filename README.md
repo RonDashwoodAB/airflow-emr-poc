@@ -1,3 +1,5 @@
+This is a POC of Airflow and its integration with EMR. At a high level, it starts an EMR Spark cluster in AWS and executes a PySpark wordcount job on the cluster. The cluster is then terminated. Results of the wordcount job are output to S3 as word/count tuple in a text file.
+
 # Install The Astro CLI
 * Run to install the Astro CLI `curl -sSL https://install.astronomer.io | sudo bash`.
 * To verify successful install, run `astro`. This should output information about the CLI.
